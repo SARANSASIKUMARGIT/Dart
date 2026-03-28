@@ -31,7 +31,7 @@ void main()
         for(int i=0;i<n;++i)
         sum+=marks[i];
         print("Final Sum : $sum");
-        if(sum>=(int)((n*100)/1.5))
+        if(sum>=((n*100)/1.5))
         isPass=true;
         else 
         isPass=false;
